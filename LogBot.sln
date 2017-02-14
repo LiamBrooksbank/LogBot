@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogBot", "LogBot.csproj", "{E89BF230-A0EC-49CC-AA28-E1C61C17D3EA}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LogBot", "LogBot\LogBot.xproj", "{1185F70A-221F-4D1A-8286-BA7D0FFD9AA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E89BF230-A0EC-49CC-AA28-E1C61C17D3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E89BF230-A0EC-49CC-AA28-E1C61C17D3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E89BF230-A0EC-49CC-AA28-E1C61C17D3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E89BF230-A0EC-49CC-AA28-E1C61C17D3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1185F70A-221F-4D1A-8286-BA7D0FFD9AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1185F70A-221F-4D1A-8286-BA7D0FFD9AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1185F70A-221F-4D1A-8286-BA7D0FFD9AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1185F70A-221F-4D1A-8286-BA7D0FFD9AA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
