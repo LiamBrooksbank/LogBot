@@ -7,19 +7,20 @@ using System.Text;
 
 namespace LogBot
 {
-    public class Greeting : IResponder
+    public class HelpResponder : IResponder
     {
         public bool CanRespond(ResponseContext context)
         {
-            return context.Message.Text.ToLower().Contains("hey")
+            return context.Message.Text.ToLower().Contains("help")
                 && context.Message.MentionsBot;
         }
 
         public BotMessage GetResponse(ResponseContext context)
         {
             var builder = new StringBuilder();
-            builder.Append("Hey! ").Append(context.Message.User.FormattedUserID);
-            return new BotMessage() { Text = builder.ToString() };
+            builder.AppendLine("log format: logbot log Project Hours <Description>");
+            builder.AppendLine("\t Eg => logbot log Design 8 <Came up with a design>");
+            return new BotMessage() { Text = builder.ToString()};
         }
     }
 }
